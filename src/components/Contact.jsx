@@ -7,6 +7,7 @@ import Resume from "../assets/resume.pdf";
 const Contact = () => {
   return (
     <div
+      id="contact"
       name="contact"
       className=" max-w-[1000px] mx-auto  p-4 w-full h-screen xs:h-full xs:pt-[100px] md:pt-[200px] lg:pt-0 lg:pb-40 bg-[#030519] lg:flex justify-center items-center "
     >

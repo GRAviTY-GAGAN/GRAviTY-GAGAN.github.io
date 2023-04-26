@@ -16,6 +16,7 @@ import Redux from "../assets/projects/tech/redux.png";
 const Skills = () => {
   return (
     <div
+      id="skills"
       name="skills"
       className="w-full  md:h-screen xs:pt-20 sm:pt-10 bg-[#030519] text-gray-300"
     >

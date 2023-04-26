@@ -8,6 +8,7 @@ const Work = () => {
 
   return (
     <div
+      id="projects"
       name="work"
       className="w-full  sm:pt-10 md:pt-0 xl:h-screen text-gray-300 bg-[#030519]"
     >
