@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full  h-screen  bg-transparent ">
+    <div id="home" name="home" className="w-full  h-screen  bg-transparent ">
       {/* Container */}
       <div
         // style={{ backgroundImage: backLogo }}

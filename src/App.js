@@ -17,7 +17,7 @@ function App() {
           alt=""
         />
         <div className="z-2 ">
-          <Home />
+          <Home id="home" />
         </div>
       </div>
 
