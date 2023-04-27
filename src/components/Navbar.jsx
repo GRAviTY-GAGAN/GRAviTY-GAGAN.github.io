@@ -29,7 +29,7 @@ const Navbar = () => {
           className="rounded-full"
           style={{ width: "65px" }}
         />
-        <div>GAGAN BN</div>
+        <div id="user-detail-name">GAGAN BN</div>
       </div>
 
       {/* menu */}
@@ -58,6 +58,11 @@ const Navbar = () => {
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li className="nav-link resume">
+          <a href={Resume} download={Resume}>
+            Resume
+          </a>
         </li>
       </ul>
 
@@ -102,6 +107,11 @@ const Navbar = () => {
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li className="nav-link resume py-6 text-4xl">
+          <a href={Resume} download={Resume}>
+            Resume
+          </a>
         </li>
       </ul>
 
