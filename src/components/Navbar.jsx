@@ -108,7 +108,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li id="resume-button-2" className="nav-link resume py-6 text-4xl">
+        <li id="resume-button-1" className="nav-link resume py-6 text-4xl">
           <a id="resume-link-1" href={Resume} download={Resume}>
             Resume
           </a>
@@ -142,7 +142,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={Resume}
@@ -150,11 +150,8 @@ const Navbar = () => {
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
-          <li
-            id="resume-button-1"
-            className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f87171]"
-          >
+          </li> */}
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f87171]">
             <a
               id="resume-button-2"
               className="flex justify-between items-center w-full text-gray-300"
