@@ -31,62 +31,102 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
-            <p className="my-4">CSS</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={HTML}
+              alt="HTML icon"
+            />
+            <p className="my-4 skills-card-name">HTML</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto"
+              className="skills-card-img w-20 mx-auto"
+              src={CSS}
+              alt="CSS icon"
+            />
+            <p className="my-4 skills-card-name">CSS</p>
+          </div>
+          <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="skills-card-img w-20 mx-auto"
               src={JavaScript}
               alt="JAVASCRIPT icon"
             />
-            <p className="my-4">JAVASCRIPT</p>
+            <p className="my-4 skills-card-name">JAVASCRIPT</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <div className="w-30 h-20 mx-auto relative">
               <img
                 src={Typescript}
-                className="w-[100px] h-[100px] mx-auto absolute md:left-10 sx:left-12 xs:-top-3 lg:left-16 xs:left-8"
+                className="skills-card-img w-[100px] h-[100px] mx-auto absolute md:left-10 sx:left-12 xs:-top-3 lg:left-16 xs:left-8"
                 alt="TYPESCRIPT icon"
               />
             </div>
-            <p className="my-4 ">TYPESCRIPT</p>
+            <p className="my-4 skills-card-name">TYPESCRIPT</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="REACT JS icon" />
-            <p className="my-4">REACT</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={ReactImg}
+              alt="REACT JS icon"
+            />
+            <p className="my-4 skills-card-name">REACT</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Redux} alt="REDUX icon" />
-            <p className="my-4">REDUX</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={Redux}
+              alt="REDUX icon"
+            />
+            <p className="my-4 skills-card-name">REDUX</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="GITHUB icon" />
-            <p className="my-4">GITHUB</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={GitHub}
+              alt="GITHUB icon"
+            />
+            <p className="my-4 skills-card-name">GITHUB</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="NODE JS icon" />
-            <p className="my-4">NODE JS</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={Node}
+              alt="NODE JS icon"
+            />
+            <p className="my-4 skills-card-name">NODE JS</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mongo} alt="MONGO DB icon" />
-            <p className="my-4">MONGO DB</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={Mongo}
+              alt="MONGO DB icon"
+            />
+            <p className="my-4 skills-card-name">MONGO DB</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="TAILWIND icon" />
-            <p className="my-4">TAILWIND</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={Tailwind}
+              alt="TAILWIND icon"
+            />
+            <p className="my-4 skills-card-name">TAILWIND</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ChakraUi} alt="CHAKRAUI icon" />
-            <p className="my-4">CHAKRAUI</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={ChakraUi}
+              alt="CHAKRAUI icon"
+            />
+            <p className="my-4 skills-card-name">CHAKRAUI</p>
           </div>
           <div className="skills-card shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={FireBase} alt="FIREBASE icon" />
-            <p className="my-4">FIREBASE</p>
+            <img
+              className="skills-card-img w-20 mx-auto"
+              src={FireBase}
+              alt="FIREBASE icon"
+            />
+            <p className="my-4 skills-card-name">FIREBASE</p>
           </div>
         </div>
       </div>

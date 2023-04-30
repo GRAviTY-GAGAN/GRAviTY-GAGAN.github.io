@@ -5,7 +5,10 @@ const Stats = () => {
   return (
     <div className="max-w-[1000px] mx-auto  p-4 w-full h-screen xs:h-full xs:pt-[100px] md:pt-[200px] lg:pt-40 lg:pb-40 xl:pt-0 bg-[#030519] lg:flex flex-col justify-center items-center ">
       <div className="flex xs:gap-16 xs:flex-col md:flex-row md:gap-6">
-        <div id="github-streak-stats">
+        <div
+          id="github-streak-stats"
+          src="github-readme-streak-stats.herokuapp.com"
+        >
           <a href="https://github.com/GRAviTY-GAGAN">
             <img
               className="w-[100%] "
@@ -13,8 +16,11 @@ const Stats = () => {
             />
           </a>
         </div>
-        <div id="github-stats-card">
-          <picture id="github-top-langs">
+        <div id="github-stats-card" src="">
+          <picture
+            id="github-top-langs"
+            src="github-readme-stats.vercel.app/api/top-langs"
+          >
             <source
               srcSet="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord"
               media="(prefers-color-scheme: transparent)"

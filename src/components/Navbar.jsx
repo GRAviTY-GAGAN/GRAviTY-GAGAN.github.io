@@ -108,8 +108,8 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className="nav-link resume py-6 text-4xl">
-          <a href={Resume} download={Resume}>
+        <li id="resume-button-2" className="nav-link resume py-6 text-4xl">
+          <a id="resume-link-1" href={Resume} download={Resume}>
             Resume
           </a>
         </li>
@@ -156,6 +156,7 @@ const Navbar = () => {
             className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f87171]"
           >
             <a
+              id="resume-button-2"
               className="flex justify-between items-center w-full text-gray-300"
               href="tel:9110613725"
               download={Resume}
