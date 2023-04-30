@@ -59,8 +59,8 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className="nav-link resume">
-          <a href={Resume} download={Resume}>
+        <li id="resume-button-1" className="nav-link resume">
+          <a id="resume-link-1" href={Resume} download={Resume}>
             Resume
           </a>
         </li>
@@ -108,8 +108,8 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li id="resume-button-1" className="nav-link resume py-6 text-4xl">
-          <a id="resume-link-1" href={Resume} download={Resume}>
+        <li className="nav-link resume py-6 text-4xl">
+          <a href={Resume} download={Resume}>
             Resume
           </a>
         </li>
