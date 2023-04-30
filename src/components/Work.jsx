@@ -64,6 +64,7 @@ const Work = () => {
             // </div>
             //
             <div
+              className="project-card"
               key={item.id}
               style={{
                 backgroundImage:
