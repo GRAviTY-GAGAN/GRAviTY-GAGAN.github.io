@@ -7,7 +7,7 @@ const Stats = () => {
       <div className="flex xs:gap-16 xs:flex-col md:flex-row md:gap-6">
         <div
           id="github-streak-stats"
-          src="gravity-gagan/github-readme-streak-stats.herokuapp.com"
+          src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord"
         >
           <a href="https://github.com/GRAviTY-GAGAN">
             <img
@@ -22,7 +22,7 @@ const Stats = () => {
         >
           <picture
             id="github-top-langs"
-            src="github-readme-stats.vercel.app/api/top-langs"
+            src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord"
           >
             <source
               srcSet="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord"

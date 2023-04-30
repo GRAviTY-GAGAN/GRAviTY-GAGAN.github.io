@@ -17,8 +17,8 @@ const Contact = () => {
         </p>
         {/* <p className="text-gray-300 py-4">You can reach me here</p> */}
         <div className="mt-10">
-          <ul className="flex">
-            <li className="lg:w-[160px] md:w-[160px] xs:w-[10px] h-[60px] p-9 flex justify-between items-center  hover: duration-300 bg-blue-600">
+          <ul className="flex flex-wrap gap-1">
+            <li className="lg:w-[160px] md:w-[160px] xs:w-[100px] h-[60px] p-9 flex justify-between items-center  hover: duration-300 bg-blue-600">
               <a
                 id="contact-linkedin"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
@@ -27,7 +27,7 @@ const Contact = () => {
                 <FaLinkedin size={30} /> Linkedin
               </a>
             </li>
-            <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex justify-between items-center  hover: duration-300 bg-[#333333]">
+            <li className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex justify-between items-center  hover: duration-300 bg-[#333333]">
               <a
                 id="contact-github"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
@@ -36,7 +36,7 @@ const Contact = () => {
                 <FaGithub size={30} /> Github
               </a>
             </li>
-            <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#6fc2b0]">
+            <li className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#6fc2b0]">
               <a
                 id="contact-email"
                 className="flex flex-col  justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
@@ -47,7 +47,7 @@ const Contact = () => {
             </li>
             <li
               id="resume-button-2"
-              className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#565f69]"
+              className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#565f69]"
             >
               <a
                 id="resume-button-2"
@@ -58,7 +58,7 @@ const Contact = () => {
                 <BsFillPersonLinesFill size={30} /> Resume
               </a>
             </li>
-            <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#f87171]">
+            <li className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#f87171]">
               <a
                 id="contact-phone"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
