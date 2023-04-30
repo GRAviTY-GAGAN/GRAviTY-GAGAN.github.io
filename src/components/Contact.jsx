@@ -50,6 +50,7 @@ const Contact = () => {
               className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#565f69]"
             >
               <a
+                id="resume-link-2"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href={Resume}
                 download={Resume}
