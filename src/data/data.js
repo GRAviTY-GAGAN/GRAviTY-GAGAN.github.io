@@ -26,6 +26,13 @@ export const data = [
     github: "https://github.com/GRAviTY-GAGAN/Github-Repositiry-Search-App",
     live: "https://github-repository-search1.netlify.app",
   },
+  {
+    id: 3,
+    name: "React JS Application",
+    image: GithubRepoSearch,
+    github: "https://github.com/GRAviTY-GAGAN/Github-Repositiry-Search-App",
+    live: "https://github-repository-search1.netlify.app",
+  },
   //   {
   //     id: 4,
   //     name: "React JS Application",

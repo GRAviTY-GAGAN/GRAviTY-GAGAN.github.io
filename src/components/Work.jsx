@@ -30,7 +30,7 @@ const Work = () => {
                 backgroundImage: `url(${item.image})`,
                 backgroundSize: "contain",
               }}
-              className="shadow-lg object-fit shadow-[#040c16] group container rounded-md 
+              className="project-card shadow-lg object-fit shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
               {/* Hover effect for images */}

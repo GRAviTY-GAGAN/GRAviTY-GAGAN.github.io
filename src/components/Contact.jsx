@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Resume from "../assets/resume.pdf";
@@ -20,6 +20,7 @@ const Contact = () => {
           <ul className="flex">
             <li className="lg:w-[160px] md:w-[160px] xs:w-[10px] h-[60px] p-9 flex justify-between items-center  hover: duration-300 bg-blue-600">
               <a
+                id="contact-linkedin"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href="https://www.linkedin.com/in/gagan-bn/"
               >
@@ -28,6 +29,7 @@ const Contact = () => {
             </li>
             <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex justify-between items-center  hover: duration-300 bg-[#333333]">
               <a
+                id="contact-github"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href="https://github.com/GRAviTY-GAGAN"
               >
@@ -36,19 +38,31 @@ const Contact = () => {
             </li>
             <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#6fc2b0]">
               <a
+                id="contact-email"
                 className="flex flex-col  justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href="mailto:gaganbn1999@gmail.com"
               >
                 <HiOutlineMail size={30} /> Email
               </a>
             </li>
-            <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#565f69]">
+            <li
+              id="resume-button-2"
+              className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#565f69]"
+            >
               <a
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href={Resume}
                 download={Resume}
               >
                 <BsFillPersonLinesFill size={30} /> Resume
+              </a>
+            </li>
+            <li className="md:w-[160px] xs:w-[10px] h-[60px] p-9 flex  justify-between items-center  hover: duration-300 bg-[#f87171]">
+              <a
+                className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
+                href="tel:9110613725"
+              >
+                <BsPhone size={30} /> Call
               </a>
             </li>
           </ul>

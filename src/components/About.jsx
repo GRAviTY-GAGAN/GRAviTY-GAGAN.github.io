@@ -24,7 +24,7 @@ const About = () => {
             <p>Hi. I'm Gagan , nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>
+            <p id="user-detail-intro">
               A dedicated and ambitious Full Stack Web Developer seeking a role
               in an organization to utilize his skills and experience to
               contribute to the success of the organization while continuously

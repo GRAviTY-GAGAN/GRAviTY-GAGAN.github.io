@@ -8,7 +8,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 import Resume from "../assets/resume.pdf";
@@ -149,6 +149,18 @@ const Navbar = () => {
               download={Resume}
             >
               Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li
+            id="resume-button-1"
+            className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f87171]"
+          >
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="tel:9110613725"
+              download={Resume}
+            >
+              Call <BsPhone size={30} />
             </a>
           </li>
         </ul>

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import backLogo from "./assets/herobg.png";
+import Stats from "./components/Stats";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <About />
         <Skills />
         <Work />
+        <Stats />
         <Contact />
       </div>
     </div>
