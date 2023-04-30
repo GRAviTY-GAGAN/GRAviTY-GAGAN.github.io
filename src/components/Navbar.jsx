@@ -35,27 +35,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li className="nav-link home">
-          <Link to="home" smooth={true} duration={500}>
+          <Link id="home" to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="nav-link about">
-          <Link to="about" smooth={true} duration={500}>
+          <Link id="about" to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="nav-link skills">
-          <Link to="skills" smooth={true} duration={500}>
+          <Link id="skills" to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="nav-link projects">
-          <Link to="work" smooth={true} duration={500}>
+          <Link id="work" to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li className="nav-link contact">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link id="contact" to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
