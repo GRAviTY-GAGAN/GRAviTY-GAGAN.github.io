@@ -18,7 +18,7 @@ const Home = () => {
           Aspiring Full Stack Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
-        <div>
+        {/* <div>
           <Link to="work" smooth={true} duration={1000}>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
               View Work
@@ -27,7 +27,7 @@ const Home = () => {
               </span>
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
