@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import backLogo from "./assets/herobg.png";
 import Stats from "./components/Stats";
+import Blogs from "./components/Blogs";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <About />
         <Skills />
         <Work />
+        <Blogs />
         <Stats />
         <Contact />
       </div>

@@ -17,11 +17,15 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Work
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">
+            // I like to showcase my work and thus, you can see my projects
+            hosted online. Each project is briefly described with links to code
+            repositories and live demos in it.
+          </p>
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {/* Gird Item */}
           {project.map((item, index) => (
             // <div
@@ -64,7 +68,7 @@ const Work = () => {
             // </div>
             //
             <div
-              className="project-card"
+              className="project-card ease-in-out duration-300 hover:scale-105 "
               key={item.id}
               style={{
                 backgroundImage:
@@ -88,6 +92,19 @@ const Work = () => {
                     ? item.pDesc.substring(0, 130) + "..."
                     : item.pDesc}
                 </p>
+                <div className="flex gap-2">
+                  {item.tech.map((techStack, index) => {
+                    return (
+                      <p
+                        key={techStack.color}
+                        style={{ color: techStack.color }}
+                        className={`mt-4 text-sm `}
+                      >
+                        {techStack.name}
+                      </p>
+                    );
+                  })}
+                </div>
                 <div className="pt-8 text-center">
                   {/* eslint-disable-next-line */}
                   <a
