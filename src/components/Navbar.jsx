@@ -60,7 +60,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li id="resume-button-1" className="nav-link resume">
-          <a id="resume-link-1" href={Resume} download={Resume}>
+          <a id="resume-link-1" href={Resume} download={"Gagan-BN-Resume"}>
             Resume
           </a>
         </li>
@@ -109,7 +109,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-link resume py-6 text-4xl">
-          <a href={Resume} download={Resume}>
+          <a href={Resume} download={"Gagan-BN-Resume"}>
             Resume
           </a>
         </li>
@@ -150,7 +150,7 @@ const Navbar = () => {
               id="resume-link-2"
               className="flex justify-between items-center w-full text-gray-300"
               href={Resume}
-              download={Resume}
+              download={"Gagan-BN-Resume"}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -160,7 +160,6 @@ const Navbar = () => {
               id="resume-button-2"
               className="flex justify-between items-center w-full text-gray-300"
               href="tel:9110613725"
-              download={Resume}
             >
               Call <BsPhone size={30} />
             </a>

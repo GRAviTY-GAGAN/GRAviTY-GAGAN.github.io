@@ -53,7 +53,7 @@ const Contact = () => {
                 id="resume-link-2"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href={Resume}
-                download={Resume}
+                download={"Gagan-BN-Resume"}
               >
                 <BsFillPersonLinesFill size={30} /> Resume
               </a>
