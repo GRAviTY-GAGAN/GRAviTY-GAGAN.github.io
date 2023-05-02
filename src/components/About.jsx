@@ -1,4 +1,6 @@
 import React from "react";
+import Resume from "../assets/resume.pdf";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -23,7 +25,8 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Gagan , nice to meet you. Please take a look around.</p>
           </div>
-          <div id="resume-button-2">
+
+          <div>
             <p id="user-detail-intro">
               A dedicated and ambitious Full Stack Web Developer seeking a role
               in an organization to utilize his skills and experience to
@@ -33,6 +36,19 @@ const About = () => {
               websites using HTML, CSS, JavaScript, React, Redux, and ChakraUI.
             </p>
           </div>
+        </div>
+        <div
+          id="resume-button-2"
+          className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex mt-4 justify-between items-center  hover: duration-300 bg-[#565f69]"
+        >
+          <a
+            id="resume-link-2"
+            className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
+            href={Resume}
+            download={"Gagan-BN-Resume"}
+          >
+            <BsFillPersonLinesFill size={30} /> Resume
+          </a>
         </div>
       </div>
     </div>

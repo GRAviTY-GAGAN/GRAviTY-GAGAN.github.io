@@ -1,6 +1,8 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Resume from "../assets/resume.pdf";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -18,7 +20,7 @@ const Home = () => {
           Full Stack Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
-        <div id="resume-button-2">
+        <div>
           <Link to="work" smooth={true} duration={1000}>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
               View Work
@@ -28,6 +30,19 @@ const Home = () => {
             </button>
           </Link>
         </div>
+      </div>
+      <div
+        id="resume-button-2"
+        className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex mt-4 justify-between items-center  hover: duration-300 bg-[#565f69]"
+      >
+        <a
+          id="resume-link-2"
+          className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
+          href={Resume}
+          download={"Gagan-BN-Resume"}
+        >
+          <BsFillPersonLinesFill size={30} /> Resume
+        </a>
       </div>
     </div>
   );
