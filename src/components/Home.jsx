@@ -31,7 +31,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <a
+      {/* <a
         id="resume-link-2"
         className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex mt-4 justify-between items-center  hover: duration-300 bg-[#565f69]"
         href={Resume}
@@ -43,7 +43,7 @@ const Home = () => {
         >
           <BsFillPersonLinesFill size={30} /> Resume
         </div>
-      </a>
+      </a> */}
     </div>
   );
 };
