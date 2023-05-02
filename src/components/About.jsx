@@ -23,7 +23,7 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Gagan , nice to meet you. Please take a look around.</p>
           </div>
-          <div>
+          <div id="resume-button-2">
             <p id="user-detail-intro">
               A dedicated and ambitious Full Stack Web Developer seeking a role
               in an organization to utilize his skills and experience to
