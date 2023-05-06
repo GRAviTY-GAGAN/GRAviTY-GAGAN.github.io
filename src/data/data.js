@@ -54,21 +54,21 @@ export const data = [
       { name: "#Firebase", color: "green" },
     ],
   },
-  {
-    id: 4,
-    name: "React JS Application",
-    image: GithubRepoSearch,
-    pName: "Github Repository Search App",
-    pDesc:
-      "A app using which you can search for any user on github. you will get to see the details of the user and also the repositories of the user.",
-    github: "https://github.com/GRAviTY-GAGAN/Github-Repositiry-Search-App",
-    live: "https://github-repository-search1.netlify.app",
-    tech: [
-      { name: "#ReactJS", color: "red" },
-      { name: "#CSS", color: "orange" },
-      { name: "#Firebase", color: "green" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   name: "React JS Application",
+  //   image: GithubRepoSearch,
+  //   pName: "Github Repository Search App",
+  //   pDesc:
+  //     "A app using which you can search for any user on github. you will get to see the details of the user and also the repositories of the user.",
+  //   github: "https://github.com/GRAviTY-GAGAN/Github-Repositiry-Search-App",
+  //   live: "https://github-repository-search1.netlify.app",
+  //   tech: [
+  //     { name: "#ReactJS", color: "red" },
+  //     { name: "#CSS", color: "orange" },
+  //     { name: "#Firebase", color: "green" },
+  //   ],
+  // },
   //   {
   //     id: 4,
   //     name: "React JS Application",
