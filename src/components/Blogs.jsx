@@ -8,7 +8,7 @@ const Blogs = () => {
         <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
           Blogs
         </p>
-        <p className="py-6">// Here are some of my blogs.</p>
+        <p className="py-6">Here are some of my blogs.</p>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4">

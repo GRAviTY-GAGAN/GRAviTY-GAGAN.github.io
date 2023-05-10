@@ -18,8 +18,8 @@ const Work = () => {
             Work
           </p>
           <p className="py-6">
-            // I like to showcase my work and thus, you can see my projects
-            hosted online. Each project is briefly described with links to code
+            I like to showcase my work and thus, you can see my projects hosted
+            online. Each project is briefly described with links to code
             repositories and live demos in it.
           </p>
         </div>
