@@ -40,18 +40,12 @@ const About = () => {
         </div>
         <div style={{ marginTop: "5rem" }}>
           <img
-            // style={{
-            //   borderRadius: "50%",
-            //   height: "400px",
-            //   width: "400px",
-            //   objectFit: "contain",
-            // }}
             className="home-img object-fill rounded-full xs:w-[200px] xs:h-[200px] md:w-[400px] md:h-[400px]"
             src={Gagan}
             alt=""
           />
         </div>
-        {/* <a
+        <a
           id="resume-link-2"
           className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex mt-4 justify-between items-center  hover: duration-300 bg-[#565f69]"
           href={Resume}
@@ -63,7 +57,7 @@ const About = () => {
           >
             <BsFillPersonLinesFill size={30} /> Resume
           </div>
-        </a> */}
+        </a>
       </div>
     </div>
   );
