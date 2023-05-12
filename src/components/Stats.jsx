@@ -6,12 +6,13 @@ const Stats = () => {
     <div className="max-w-[1000px] mx-auto  p-4 w-full h-screen xs:h-full xs:pt-[100px] md:pt-[200px] lg:pt-40 lg:pb-40 xl:pt-0 bg-[#030519] lg:flex flex-col justify-center items-center ">
       <div className="flex xs:gap-16 xs:flex-col md:flex-row md:gap-6">
         <div
-          id="github-streak-stats"
+        // src="https://github-readme-streak-stats.herokuapp.com/?user=GRAviTY-GAGAN&"
 
-          // src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord"
+        // src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord"
         >
           <a href="https://github.com/GRAviTY-GAGAN">
             <img
+              id="github-streak-stats"
               className="w-[100%] "
               src="https://github-readme-streak-stats.herokuapp.com/?user=GRAviTY-GAGAN&"
               alt="GaganBN"
@@ -19,12 +20,9 @@ const Stats = () => {
             />
           </a>
         </div>
-        <div
-          id="github-stats-card"
-          src="gravity-gagan/github-readme-stats.vercel.app/api"
-        >
+        <div src="gravity-gagan/github-readme-stats.vercel.app/api">
           <picture
-            id="github-top-langs"
+            // id="github-top-langs"
             src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord"
           >
             <source
@@ -33,6 +31,8 @@ const Stats = () => {
             />
 
             <img
+              // id="github-stats-card"
+              id="github-top-langs"
               className="w-[100%]"
               src="https://github-readme-stats.vercel.app/api/top-langs?username=GRAviTY-GAGAN&show_icons=true&locale=en&layout=compact"
               alt="top_languages"
