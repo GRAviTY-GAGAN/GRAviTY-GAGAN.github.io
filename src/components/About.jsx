@@ -1,5 +1,6 @@
 import React from "react";
 import Resume from "../assets/resume.pdf";
+import Gagan from "../assets/Gagan.jpg";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const About = () => {
@@ -37,7 +38,19 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="home-img"></div>
+        <div style={{ marginTop: "5rem" }}>
+          <img
+            // style={{
+            //   borderRadius: "50%",
+            //   height: "400px",
+            //   width: "400px",
+            //   objectFit: "contain",
+            // }}
+            className="home-img object-fill rounded-full xs:w-[200px] xs:h-[200px] md:w-[400px] md:h-[400px]"
+            src={Gagan}
+            alt=""
+          />
+        </div>
         {/* <a
           id="resume-link-2"
           className="md:w-[160px] xs:w-[100px] h-[60px] p-9 flex mt-4 justify-between items-center  hover: duration-300 bg-[#565f69]"
