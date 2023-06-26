@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.997431e7.css",
-    "main.js": "/static/js/main.786519e1.js",
+    "main.js": "/static/js/main.919977c8.js",
     "static/media/snapdeal.png": "/static/media/snapdeal.fe838b3980e12003d888.png",
     "static/media/nordstorm.png": "/static/media/nordstorm.a81ebeb563c90979ded3.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/gitRepoSearch.png": "/static/media/gitRepoSearch.7d95d56a9a2615b96a87.png",
+    "static/media/CodeVortexInterview.png": "/static/media/CodeVortexInterview.55bad0dc8be0fc34e9af.png",
     "static/media/resume.pdf": "/static/media/resume.a3147b11afa1e106e96c.pdf",
     "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/web.png": "/static/media/web.c0cb2cc13791a26822d3.png",
@@ -26,10 +27,10 @@
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
     "main.997431e7.css.map": "/static/css/main.997431e7.css.map",
-    "main.786519e1.js.map": "/static/js/main.786519e1.js.map"
+    "main.919977c8.js.map": "/static/js/main.919977c8.js.map"
   },
   "entrypoints": [
     "static/css/main.997431e7.css",
-    "static/js/main.786519e1.js"
+    "static/js/main.919977c8.js"
   ]
 }
