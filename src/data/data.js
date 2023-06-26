@@ -7,6 +7,7 @@ import promiseImg from "../assets/mobile.png";
 import thisImg from "../assets/creator.png";
 import useReducerImg from "../assets/web.png";
 import useStateImg from "../assets/backend.png";
+import CodeVortex from "../assets/CodeVortexInterview.png";
 
 export const data = [
   {
@@ -54,21 +55,21 @@ export const data = [
       { name: "#Firebase", color: "green" },
     ],
   },
-  // {
-  //   id: 4,
-  //   name: "React JS Application",
-  //   image: GithubRepoSearch,
-  //   pName: "Github Repository Search App",
-  //   pDesc:
-  //     "A app using which you can search for any user on github. you will get to see the details of the user and also the repositories of the user.",
-  //   github: "https://github.com/GRAviTY-GAGAN/Github-Repositiry-Search-App",
-  //   live: "https://github-repository-search1.netlify.app",
-  //   tech: [
-  //     { name: "#ReactJS", color: "red" },
-  //     { name: "#CSS", color: "orange" },
-  //     { name: "#Firebase", color: "green" },
-  //   ],
-  // },
+  {
+    id: 5,
+    name: "React JS Application",
+    image: CodeVortex,
+    pName: "Interview Simulator",
+    pDesc:
+      "Code Vortex is an innovative self-interview prep platform harnessing the power of AI and natural language processing. It leverages OpenAI's advanced capabilities and prompt engineering techniques to replicate real interview scenarios. With personalized feedback and a comprehensive set of resources, Code Vortex empowers users to enhance their interview skills and excel in their job search.",
+    github: "https://github.com/GRAviTY-GAGAN/CodeVertex-FE",
+    live: "https://interview-simulator-open-ai.netlify.app/",
+    tech: [
+      { name: "#ReactJS", color: "red" },
+      { name: "#MongoDB", color: "orange" },
+      { name: "#ExpressJS", color: "green" },
+    ],
+  },
   //   {
   //     id: 4,
   //     name: "React JS Application",
