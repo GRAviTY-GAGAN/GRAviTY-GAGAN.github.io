@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Gagan-BN-Resume.pdf";
 
 const Contact = () => {
   return (

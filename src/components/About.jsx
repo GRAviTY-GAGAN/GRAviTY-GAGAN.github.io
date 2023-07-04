@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Gagan-BN-Resume.pdf";
 import Gagan from "../assets/Gagan.jpg";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 

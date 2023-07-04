@@ -11,7 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Gagan-BN-Resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

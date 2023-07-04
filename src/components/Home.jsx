@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Gagan-BN-Resume.pdf";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
