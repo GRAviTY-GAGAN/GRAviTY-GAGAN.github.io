@@ -9,6 +9,7 @@ import useReducerImg from "../assets/web.png";
 import useStateImg from "../assets/backend.png";
 import CodeVortex from "../assets/CodeVortexInterview.png";
 import hrDashboard from "../assets/projects/HR Dashboard.png";
+import TaskBoard from "../assets/projects/task board.png";
 
 export const data = [
   {
@@ -82,6 +83,21 @@ export const data = [
     live: "https://hr-dashboard-app.netlify.app",
     tech: [
       { name: "#ReactJS", color: "red" },
+      { name: "#MongoDB", color: "orange" },
+      { name: "#ExpressJS", color: "green" },
+    ],
+  },
+  {
+    id: 5,
+    name: "React TS Application",
+    image: TaskBoard,
+    pName: "Task Boards",
+    pDesc:
+      "Organize your work effortlessly with multiple boards, tasks, and subtasks. After a quick login, users can seamlessly manage their tasks across different boards, breaking them down into manageable subtasks for increased productivity and efficiency.",
+    github: "https://github.com/GRAviTY-GAGAN/Task-Board",
+    live: "https://task-board-web-app.netlify.app",
+    tech: [
+      { name: "#Typescript", color: "red" },
       { name: "#MongoDB", color: "orange" },
       { name: "#ExpressJS", color: "green" },
     ],
