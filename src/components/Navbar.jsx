@@ -17,6 +17,14 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  function handleNewPage() {
+    // console.log("YES");
+    window.open(
+      `https://drive.google.com/file/d/1_ojSvjsIEUgXzoiU2SbWwp9QCFRrhipm/view?usp=sharing`,
+      "_blank"
+    );
+  }
+
   return (
     <div
       id="nav-menu"
@@ -60,7 +68,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li id="resume-button-1" className="nav-link resume">
-          <a id="resume-link-1" href={Resume} download={"Gagan-BN-Resume"}>
+          <a
+            id="resume-link-1"
+            href={Resume}
+            download={"Gagan-BN-Resume"}
+            onClick={handleNewPage}
+          >
             Resume
           </a>
         </li>
@@ -109,7 +122,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-link resume py-6 text-4xl">
-          <a href={Resume} download={"Gagan-BN-Resume"}>
+          <a href={Resume} onClick={handleNewPage} download={"Gagan-BN-Resume"}>
             Resume
           </a>
         </li>
@@ -149,8 +162,9 @@ const Navbar = () => {
             <a
               id="resume-link-2"
               className="flex justify-between items-center w-full text-gray-300"
-              href={Resume}
-              download={"Gagan-BN-Resume"}
+              // href={Resume}
+              // download={"Gagan-BN-Resume"}
+              onClick={handleNewPage}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

@@ -5,6 +5,14 @@ import { HiOutlineMail } from "react-icons/hi";
 import Resume from "../assets/Gagan-BN-Resume.pdf";
 
 const Contact = () => {
+  function handleNewPage() {
+    // console.log("YES");
+    window.open(
+      `https://drive.google.com/file/d/1_ojSvjsIEUgXzoiU2SbWwp9QCFRrhipm/view?usp=sharing`,
+      "_blank"
+    );
+  }
+
   return (
     <div
       id="contact"
@@ -54,6 +62,7 @@ const Contact = () => {
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
                 href={Resume}
                 download={"Gagan-BN-Resume"}
+                onClick={handleNewPage}
               >
                 <BsFillPersonLinesFill size={30} /> Resume
               </a>

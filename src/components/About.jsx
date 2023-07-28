@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../assets/Gagan-BN-Resume.pdf";
-import Gagan from "../assets/Gagan.jpg";
+import Gagan from "../assets/Gagan.jpeg";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const About = () => {
@@ -40,13 +40,14 @@ const About = () => {
         </div>
         {/* UNCOMMENT BELOW */}
 
-        {/* <div style={{ marginTop: "5rem" }}>
+        <div style={{ marginTop: "5rem" }}>
           <img
+            style={{ objectFit: "contain" }}
             className="home-img object-fill rounded-full xs:w-[200px] xs:h-[200px] md:w-[400px] md:h-[400px]"
             src={Gagan}
             alt=""
           />
-        </div> */}
+        </div>
         {/* UNCOMMENT BELOW */}
         {/* <a
           id="resume-link-2"
