@@ -25,7 +25,7 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-[1.5rem]">
           {/* Gird Item */}
           {project.map((item, index) => (
             // <div
@@ -68,23 +68,23 @@ const Work = () => {
             // </div>
             //
             <div
-              className="project-card ease-in-out duration-300 hover:scale-105 "
+              className="project-card ease-in-out bg-[#131B30] duration-300 hover:scale-105 rounded-lg"
               key={item.id}
-              style={{
-                backgroundImage:
-                  "linear-gradient(to right,rgba(26, 37, 60, 0.8),hsla(243, 81%, 10%, 0.8))",
-              }}
+              // style={{
+              //   backgroundImage:
+              //     "linear-gradient(to right,rgba(26, 37, 60, 0.8),hsla(243, 81%, 10%, 0.8))",
+              // }}
               // className="border-red-500  border-2 "
             >
-              <div className="p-4">
-                <img src={item.image} alt="" />
+              <div className="p-4 bg-[#131B30]">
+                <img className="rounded-md" src={item.image} alt="" />
               </div>
               <div
-                className="p-4"
-                style={{
-                  backgroundImage:
-                    "linear-gradient(to right,rgba(26, 37, 60, 0.8),hsla(243, 81%, 10%, 0.8))",
-                }}
+                className="p-4 bg-[#131B30]"
+                // style={{
+                //   backgroundImage:
+                //     "linear-gradient(to right,rgba(26, 37, 60, 0.8),hsla(243, 81%, 10%, 0.8))",
+                // }}
               >
                 <h3 className="project-title font-extrabold">{item.pName}</h3>
                 <p className="project-description text-justify">
@@ -105,7 +105,7 @@ const Work = () => {
                     );
                   })}
                 </div>
-                <div className="pt-8 text-center">
+                <div className="pt-4 text-center">
                   {/* eslint-disable-next-line */}
                   <a
                     className="project-github-link"
@@ -113,7 +113,7 @@ const Work = () => {
                     target="_blank"
                   >
                     <button
-                      className="text-center rounded-lg px-4 py-3 m-2
+                      className="text-center rounded-[4px] px-[16px] py-[4px] m-2
                        bg-white text-gray-700 font-bold text-lg"
                     >
                       Code
@@ -126,7 +126,7 @@ const Work = () => {
                     target="_blank"
                   >
                     <button
-                      className="text-center rounded-lg px-4 py-3 m-2
+                      className="text-center rounded-[4px] px-[16px] py-[4px] m-2
                        bg-white text-gray-700 font-bold text-lg"
                     >
                       Live

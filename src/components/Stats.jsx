@@ -14,9 +14,9 @@ const Stats = () => {
             <img
               id="github-streak-stats"
               className="w-[100%] "
-              // src="https://github-readme-streak-stats.herokuapp.com/?user=GRAviTY-GAGAN&" //UNCOMMENT
+              // src="https://github-readme-streak-stats.herokuapp.com/?user=GRAviTY-GAGAN&" //UNCOMMENT ONLY FOR MASAI
               alt="GaganBN"
-              src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord" //COMMENT THIS
+              src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord" //COMMENT THIS ONLY FOR MASAI
             />
           </a>
         </div>
@@ -34,13 +34,13 @@ const Stats = () => {
               // id="github-stats-card"
               id="github-top-langs"
               className="w-[100%]"
-              // src="https://github-readme-stats.vercel.app/api/top-langs?username=GRAviTY-GAGAN&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
+              // src="https://github-readme-stats.vercel.app/api/top-langs?username=GRAviTY-GAGAN&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS ONLY FOR MASAI
               alt="top_languages"
-              src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord" //COMMENT THIS
+              src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord" //COMMENT THIS ONLY FOR MASAI
             />
           </picture>
         </div>
-        {/* UNCOMMENT BELOW */}
+        {/* UNCOMMENT BELOW ONLY FOR MASAI*/}
         {/* <div>
           <img
             id="github-stats-card"

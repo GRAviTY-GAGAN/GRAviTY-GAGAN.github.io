@@ -31,21 +31,28 @@ const Navbar = () => {
       className="fixed w-full h-[80px] flex justify-between items-center z-10 px-4 bg-[#030519] text-gray-300"
     >
       <div className="flex justify-center items-center font-extrabold">
-        <img
-          src={logo}
-          alt="Logo Image"
-          className="rounded-full"
-          style={{ width: "65px" }}
-        />
-        <div id="user-detail-name">GAGAN BN</div>
+        <Link
+          className="flex justify-center items-center font-extrabold"
+          to="home"
+          smooth={true}
+          duration={500}
+        >
+          <img
+            src={logo}
+            alt="Logo"
+            className="rounded-full"
+            style={{ width: "65px" }}
+          />
+          <div id="user-detail-name">GAGAN BN</div>
+        </Link>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li className="nav-link home">
-          <Link to="home" smooth={true} duration={500}>
+          {/* <Link to="home" smooth={true} duration={500}>
             Home
-          </Link>
+          </Link> */}
         </li>
         <li className="nav-link about">
           <Link to="about" smooth={true} duration={500}>
@@ -60,6 +67,11 @@ const Navbar = () => {
         <li className="nav-link projects">
           <Link to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="nav-link projects">
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
         <li className="nav-link contact">
@@ -113,6 +125,17 @@ const Navbar = () => {
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link
+            onClick={handleClick}
+            to="experience"
+            smooth={true}
+            duration={500}
+          >
+            Experience
           </Link>
         </li>
         <li className="py-6 text-4xl">

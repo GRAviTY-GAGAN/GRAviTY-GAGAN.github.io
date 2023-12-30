@@ -43,7 +43,7 @@ const About = () => {
         <div style={{ marginTop: "5rem" }}>
           <img
             style={{ objectFit: "contain" }}
-            className="home-img object-fill rounded-full xs:w-[200px] xs:h-[200px] md:w-[400px] md:h-[400px]"
+            className="home-img object-fill rounded-full xs:w-[200px] xs:h-[200px] md:w-[400px] md:h-[400px] bg-white"
             src={Gagan}
             alt=""
           />

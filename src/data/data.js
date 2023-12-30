@@ -10,6 +10,10 @@ import useStateImg from "../assets/backend.png";
 import CodeVortex from "../assets/CodeVortexInterview.png";
 import hrDashboard from "../assets/projects/HR Dashboard.png";
 import TaskBoard from "../assets/projects/task board.png";
+import ssipeople from "../assets/Jobs/ssipeople.jpg";
+import skillvalley from "../assets/Jobs/skillvalley.jpg";
+import ezxbrl from "../assets/Jobs/ez-xbrl.jpg";
+import k2v from "../assets/Jobs/K2V.jpg";
 
 export const data = [
   {
@@ -88,7 +92,7 @@ export const data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "React TS Application",
     image: TaskBoard,
     pName: "Task Boards",
@@ -131,5 +135,59 @@ export const blogs = [
     name: "useState() hook",
     link: "https://gagan-bn.hashnode.dev/usestate-hook",
     img: useStateImg,
+  },
+];
+
+export const experienceData = [
+  {
+    title: "Web Development Intern",
+    date: "Aug 2020 - Sep 2020",
+    company: "K2V Infotech LLP",
+    image: k2v,
+    work: [
+      `Wrote well-designed, testable, efficient code by using best software development practices.`,
+      `Created website layout/user interfaces by using standard HTML/CSS practices.`,
+      `Integrated data from various back-end services and databases.`,
+    ],
+    iconBg: "#C9C9C9",
+  },
+  {
+    title: "Talent Acquisition Associate",
+    date: "Nov 2021 - Jul 2022",
+    company: "SSi People",
+    image: ssipeople,
+    work: [
+      `Recruited IT professionals for clients through sourcing, technical screening,
+      negotiating rates, scheduling interviews, and checking references.`,
+      `Utilized Boolean search and passive sourcing on LinkedIn and Google for
+      niche skills, and recruited via job boards such as Dice, Monster, Indeed, and
+      CareerBuilder.`,
+      `Efficiently evaluated candidates based on skills, experience, and
+      qualifications, and coordinated end-to-end interviews between client and
+      candidate.`,
+    ],
+    iconBg: "#FFFFFF",
+  },
+  {
+    title: "Frontend Developer Intern",
+    date: "Aug 2022 - Oct 2022",
+    company: "Skillvalley",
+    image: skillvalley,
+    work: [
+      `Worked on the entire employee side of the project including both frontend and backend. Also responsible for fixing bugs.`,
+      `Implemented an email-based password reset feature.`,
+      `Implemented the raise issue feature on the employee side and resolve the issue feature on the admin/HR side. Where admin can give feedback on issues.`,
+      `Made the entire app responsive.`,
+      `Implemented token-based authorization on the employee side.`,
+    ],
+    iconBg: "#FFFFFF",
+  },
+  {
+    title: "Associate Software Engineer",
+    date: "Aug 2023 - Present",
+    company: "Ez-XBRL Solutions",
+    image: ezxbrl,
+    work: [],
+    iconBg: "#FFFFFF",
   },
 ];

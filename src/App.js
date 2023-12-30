@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import backLogo from "./assets/herobg.png";
 import Stats from "./components/Stats";
 import Blogs from "./components/Blogs";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Work />
         <Blogs />
         <Stats />
+        <Experience />
         <Contact />
       </div>
     </div>
