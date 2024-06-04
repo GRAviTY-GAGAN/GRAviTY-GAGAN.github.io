@@ -29,12 +29,13 @@ const About = () => {
 
           <div>
             <p id="user-detail-intro">
-              A dedicated and ambitious Full Stack Web Developer seeking a role
-              in an organization to utilize his skills and experience to
-              contribute to the success of the organization while continuously
-              developing his knowledge and expertise. Strong desire to work in a
-              collaborative and innovative environment. Proficient in developing
-              websites using HTML, CSS, JavaScript, React, Redux, and ChakraUI.
+              A dedicated and ambitious Full Stack Web Developer with experience
+              in designing and developing web applications using React.js,
+              Next.js, and Angular on the front end, and Node.js, Express,
+              MongoDB, Socket.io, and Redis on the back end. Skilled in building
+              responsive, scalable applications, optimizing performance, and
+              implementing real-time functionalities. Eager to work in a
+              collaborative and innovative environment.
             </p>
           </div>
         </div>
