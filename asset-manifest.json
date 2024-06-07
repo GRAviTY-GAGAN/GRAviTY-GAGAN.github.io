@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.be5fcf25.css",
-    "main.js": "/static/js/main.1a6a1e81.js",
+    "main.js": "/static/js/main.5ce4d960.js",
     "static/media/snapdeal.png": "/static/media/snapdeal.fe838b3980e12003d888.png",
     "static/media/nordstorm.png": "/static/media/nordstorm.a81ebeb563c90979ded3.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/gitRepoSearch.png": "/static/media/gitRepoSearch.7d95d56a9a2615b96a87.png",
-    "static/media/Gagan-BN-Resume.pdf": "/static/media/Gagan-BN-Resume.3f07012711ebbe31d52c.pdf",
+    "static/media/Gagan-BN-Resume.pdf": "/static/media/Gagan-BN-Resume.76dddaaa6946a736a685.pdf",
     "static/media/task board.png": "/static/media/task board.80ce60063bb8055acb0e.png",
     "static/media/CodeVortexInterview.png": "/static/media/CodeVortexInterview.55bad0dc8be0fc34e9af.png",
     "static/media/HR Dashboard.png": "/static/media/HR Dashboard.15cb6ba20933dc14922d.png",
@@ -29,10 +29,10 @@
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
     "main.be5fcf25.css.map": "/static/css/main.be5fcf25.css.map",
-    "main.1a6a1e81.js.map": "/static/js/main.1a6a1e81.js.map"
+    "main.5ce4d960.js.map": "/static/js/main.5ce4d960.js.map"
   },
   "entrypoints": [
     "static/css/main.be5fcf25.css",
-    "static/js/main.1a6a1e81.js"
+    "static/js/main.5ce4d960.js"
   ]
 }
